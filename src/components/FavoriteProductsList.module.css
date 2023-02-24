@@ -1,0 +1,39 @@
+.favProduct {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.1rem;
+  padding: 1rem;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background-color: white;
+}
+
+.price {
+  margin-top: 0.25rem;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.favImage {
+  width: 80px;
+  height: 100px;
+}
+
+.favBtn svg {
+  position: relative;
+  align-self: center;
+  right: 15px;
+  fill: rgb(255, 255, 255);
+  width: 40px;
+  height: 40px;
+}
+
+.favBtn:hover svg {
+  fill: #616161;
+}
+
+.myText {
+  position: relative;
+  right: 30px;
+  color: white;
+}

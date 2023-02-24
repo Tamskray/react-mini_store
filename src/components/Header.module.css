@@ -1,0 +1,15 @@
+.header {
+  background: #222222;
+}
+
+.header__container {
+  margin: 0 auto;
+  padding: 0 20px;
+  color: rgb(255, 205, 40);
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
